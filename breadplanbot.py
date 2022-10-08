@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 from matplotlib.backends.backend_pdf import PdfPages
 
 # Secret ID for the bot: API
-updater = Updater("5641259291:AAG-9DECkBd2rztRAYMkExTjRvkskJi_SaU",
+updater = Updater("<API>",
                   use_context=True)
 
 # Commands
