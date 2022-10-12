@@ -67,7 +67,7 @@ def button(update, context) -> None:
     query.edit_message_text(text=f"உங்கள் கோலத்தை இப்போது பதிவேற்றவும்.")
 
 def main():
-    TOKEN = "5242328866:AAGaLIJmZNSJmaixWUOMZ8kQr8gjTocH83A"
+    TOKEN = "<API>"
     updater = Updater(TOKEN, use_context = True)
     dp = updater.dispatcher
     dp.add_handler(CommandHandler("start", start_command))
