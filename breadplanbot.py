@@ -119,7 +119,7 @@ def generate_plan():
     pp.savefig(fig, bbox_inches='tight')
     pp.close()
 
-# Declare the commands to the bot
+# Declare the commands to the bot sdda
 updater.dispatcher.add_handler(CommandHandler('start', start))
 updater.dispatcher.add_handler(CommandHandler('gimmemyplan', gimmemyplan))
 updater.dispatcher.add_handler(CommandHandler('help', help))
